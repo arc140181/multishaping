@@ -4,6 +4,6 @@ VHDL code for Multishaping algorithm. Created with Xilinx Vivado and exportable 
 - *shaper.vhd*. Finite Impulse Respose (FIR) shaper.
 - *pha.vhd*. Pulse height analiser.
 - *fsm.vhd*. Finite state machine.
-- *top.vhd*. The entire triplicated detection chain.
-- *top_tb.vhd*. Testbench of the detection chain.
-- *.txt*. Example pulses.
+- *mshape.vhd*. The entire triplicated detection chain.
+- *mshape_tb.vhd*. Testbench of the detection chain.
+- *signal_delta_100.txt*. Example pulses.
