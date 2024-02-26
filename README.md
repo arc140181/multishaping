@@ -7,3 +7,5 @@ VHDL code for Multishaping algorithm. Created with Xilinx Vivado and exportable 
 - *mshape.vhd*. The entire triplicated detection chain.
 - *mshape_tb.vhd*. Testbench of the detection chain.
 - *signal_delta_100.txt*. Example pulses.
+
+The Python simulation is located in *python* folder. It just need Numpy and Matplotlib libraries.
