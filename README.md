@@ -16,6 +16,8 @@ For this project, tools from the Xilinx family were employed to synthesize the d
 
 ![SchDig](https://github.com/user-attachments/assets/1105c1e9-defa-4506-b631-6287d05f62c5)
 
+<img src="https://github.com/user-attachments/assets/1105c1e9-defa-4506-b631-6287d05f62c5" alt="HykI4IXXA" width="100"/>
+
 *Figure 1. Proposed scheme of implementation of the presented method in VHDL with its corresponding interfaces. CLK and RST connections and Shaper 1, Shaper 2, PHA 1 and PHA 2 are omitted for clarity.*
 
 All the interfaces have in common the resolution in bytes *W* of the signals. Apart from signals *CLK* (clock signal) and *RST* (reset signal), which are common for all the proposed interfaces, in the case of the shaper, the input signals are: *X*: input signal from the ADC; *XEN*: input signal enable. The output signals are: *Y*: shaped signal; *YEN*: shaped signal valid. The shaping type and duration are configured internally.
