@@ -14,8 +14,7 @@ The Python simulation is located in *python* folder. It just need Numpy and Matp
 
 For this project, tools from the Xilinx family were employed to synthesize the design in a Spartan-7 FPGA, specifically a XC7S75FGGA676-1 device. The implementation was executed using generic VHDL without relying on any specific component of the device. As a result, synthesizing this design in any other FPGA from a different manufacturer should not pose any issues.
 
-![SchemeDig.pdf](https://github.com/user-attachments/files/16233647/SchemeDig.pdf)
-
+![SchDig](https://github.com/user-attachments/assets/1105c1e9-defa-4506-b631-6287d05f62c5)
 
 *Figure 1. Proposed scheme of implementation of the presented method in VHDL with its corresponding interfaces. CLK and RST connections and Shaper 1, Shaper 2, PHA 1 and PHA 2 are omitted for clarity.*
 
