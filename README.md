@@ -16,7 +16,7 @@ For this project, tools from the Xilinx family were employed to synthesize the d
 
 ![SchDig](https://github.com/user-attachments/assets/1105c1e9-defa-4506-b631-6287d05f62c5)
 
-<img src="https://github.com/user-attachments/assets/1105c1e9-defa-4506-b631-6287d05f62c5" alt="HykI4IXXA" width="100"/>
+<img src="https://github.com/user-attachments/assets/1105c1e9-defa-4506-b631-6287d05f62c5" alt="HykI4IXXA" width="500"/>
 
 *Figure 1. Proposed scheme of implementation of the presented method in VHDL with its corresponding interfaces. CLK and RST connections and Shaper 1, Shaper 2, PHA 1 and PHA 2 are omitted for clarity.*
 
