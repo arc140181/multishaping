@@ -373,10 +373,10 @@ for j in range(len(NAMPL)):
     pc = len(height_c) * 100 / lhast
     pd = len(height_d) * 100 / lhast
 
-    height_a = height_a[(height_a > SMAX/2 - 2*np.std(height_a)) & (height_a < SMAX/2 + 2*np.std(height_a))]
-    height_b = height_b[(height_b > SMAX/2 - 2*np.std(height_a)) & (height_b < SMAX/2 + 2*np.std(height_a))]
-    height_c = height_c[(height_c > SMAX/2 - 2*np.std(height_a)) & (height_c < SMAX/2 + 2*np.std(height_a))]
-    height_d = height_d[(height_d > SMAX/2 - 2*np.std(height_a)) & (height_d < SMAX/2 + 2*np.std(height_a))]
+    height_a = height_a[(height_a > RANGE[0]) & (height_a < RANGE[1])]
+    height_b = height_b[(height_b > RANGE[0]) & (height_b < RANGE[1])]
+    height_c = height_c[(height_c > RANGE[0]) & (height_c < RANGE[1])]
+    height_d = height_d[(height_d > RANGE[0]) & (height_d < RANGE[1])]
         
     σa = np.std(height_a)
     σb = np.std(height_b)
@@ -473,10 +473,10 @@ for j in range(len(FREQU)):
     pc = len(height_c) * 100 / lhast
     pd = len(height_d) * 100 / lhast
 
-    height_a = height_a[(height_a > SMAX/2 - 2*np.std(height_a)) & (height_a < SMAX/2 + 2*np.std(height_a))]
-    height_b = height_b[(height_b > SMAX/2 - 2*np.std(height_a)) & (height_b < SMAX/2 + 2*np.std(height_a))]
-    height_c = height_c[(height_c > SMAX/2 - 2*np.std(height_a)) & (height_c < SMAX/2 + 2*np.std(height_a))]
-    height_d = height_d[(height_d > SMAX/2 - 2*np.std(height_a)) & (height_d < SMAX/2 + 2*np.std(height_a))]
+    height_a = height_a[(height_a > RANGE[0]) & (height_a < RANGE[1])]
+    height_b = height_b[(height_b > RANGE[0]) & (height_b < RANGE[1])]
+    height_c = height_c[(height_c > RANGE[0]) & (height_c < RANGE[1])]
+    height_d = height_d[(height_d > RANGE[0]) & (height_d < RANGE[1])]
         
     σa = np.std(height_a)
     σb = np.std(height_b)
